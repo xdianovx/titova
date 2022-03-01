@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      async
+      href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Мария Титова</title>
+  </head>
+  <body>
+    <style type="text/css">
+      #hellopreloader_preload {
+        display: block;
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        min-width: 1000px;
+        background: #fff url(http://hello-site.ru//main/images/preloads/tail-spin.svg) center center no-repeat;
+        background-size: 87px;
+      }
+    </style>
+    <div id="hellopreloader">
+      <div id="hellopreloader_preload"></div>
+    </div>
+    <!-- Header -->
+    <header class="header">
+  <div class="container">
+    <div class="header__wrap">
+      <a href="#" class="header__logo logo">
+        <img src="./img/logo.svg" alt="Логотип" />
+      </a>
+
+      <nav class="header__nav">
+        <ul class="header__ul" id="menu">
+          <li class="header__li"><a href="#about">Обо мне</a></li>
+          <li class="header__li"><a href="#cerf">Сертификаты</a></li>
+          <li class="header__li"><a href="#services">Услуги</a></li>
+          <li class="header__li"><a href="#articles">Статьи</a></li>
+          <li class="header__li"><a href="#contacts">Контакты</a></li>
+
+          <button class="btn header__btn header__btn-mob">Позвонить</button>
+        </ul>
+      </nav>
+
+      <div class="header__right">
+        <a href="#contacts" class="btn header__btn">Позвонить</a>
+      </div>
+
+      <div class="burger"><span></span></div>
+    </div>
+  </div>
+</header>
+
+<div class="overflow"></div>
+
+
+    <div id="fullpage">
+      <!-- Hero -->
+      <section class="hero section">
+        <h1 class="hero-title">Мария Титова</h1>
+        <div class="container">
+          <div class="hero__wrap">
+            <h2 class="hero__wrap_title">Конфиденциально, эффективно, профессионально</h2>
+            <p class="hero__wrap_subtitle">
+              Психотерапевтические процедуры Марии Титовой помогут значительно повысить качество вашей жизни
+            </p>
+
+            <a href="#contacts" class="hero-btn btn-bd">Обратиться</a>
+            <div class="hero-image">
+              <img src="./img/hero.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="about-sec"></div>
+      <!-- About -->
+      <section class="about section" data-scroll="about">
+        <h2 class="title-main about-title">Обо мне</h2>
+        <div class="container container-relative">
+          <div class="about-item about-item-tl">
+            <h4 class="about-item__title">Член Австрийского союза психотерапии</h4>
+            <p class="about-item__text">Österreichische Bundesverband für Psychotherapie</p>
+            <a href="http://www.psychotherapie.at" target="_blank" class="about-item__link">www.psychotherapie.at</a>
+          </div>
+
+          <div class="about-item about-item-bl">
+            <h4 class="about-item__title">Сообщества по психотерапии и консультированию</h4>
+            <p class="about-item__text">Института Личностно -Центрированой Терапии</p>
+            <a href="http://www.apg-ips.at" target="_blank" class="about-item__link">http://www.apg-ips.at</a>
+          </div>
+
+          <div class="about-item about-item-br">
+            <h4 class="about-item__title">Венского объединения психотерапевтов</h4>
+            <p class="about-item__text">Wiener Landesverband für Psychotherapie</p>
+            <a href="www.psychotherapie-wlp.at" target="_blank" class="about-item__link">www.psychotherapie-wlp.at</a>
+          </div>
+
+          <div class="about__wrap">
+            <div class="about-image">
+              <img src="./img/about.png" alt="Мария Титова" />
+              <h3 class="about-image__title">Врач —психотерапевт</h3>
+              <a href="#contacts" class="btn-bd about-image__btn">Обратиться</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="experience section" data-scroll="experience">
+        <div class="shadow shadow-l">
+          <img src="./img/gr.png" alt="" />
+        </div>
+        <div class="shadow shadow-r">
+          <img src="./img/gr.png" alt="" />
+        </div>
+        <h2 class="title-main experience-title">Опыт работы</h2>
+        <!-- Slider -->
+        <div class="swiper-container experience-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide experience-slide">
+              <p class="experience-slide__title">Клиника психического здоровья</p>
+              <div class="experience-slide__dates">2014 — 2016</div>
+              <div class="experience-slide__subtext">Института IPS-APG</div>
+            </div>
+
+            <div class="swiper-slide experience-slide">
+              <p class="experience-slide__title">Частная практика</p>
+              <div class="experience-slide__dates">2016 — Н.В.</div>
+              <div class="experience-slide__subtext">Частная практика в Вене с 2016 года</div>
+            </div>
+
+            <div class="swiper-slide experience-slide">
+              <p class="experience-slide__title">Отделение острой психиатрии</p>
+              <div class="experience-slide__dates">2011 — 2014</div>
+              <div class="experience-slide__subtext">Donauspital-SMZ-Ost-Wien</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="experience-arrows">
+          <div class="swiper-button-prev experience-button-prev"></div>
+          <div class="swiper-button-next experience-button-next"></div>
+        </div>
+
+        <div class="container">
+          <div class="experience__wrap"></div>
+        </div>
+      </section>
+
+      <!-- Sertificates -->
+      <section class="certificates section cerf" data-scroll="cerf">
+        <h2 class="title-main sertificates-title">Сертификаты</h2>
+        <div class="container">
+          <div class="certificates__wrap">
+            <!-- item -->
+            <div class="certificate-item">
+              <h2 class="certificate-item__title">Professional Diploma in Management</h2>
+              <div class="certificate-item__inner">
+                <div class="certificate-item__inner_img">
+                  <img src="./img/certificate-1.png" alt="Сертификат" />
+                </div>
+              </div>
+              <p class="certificate-item__side-text">Open British university</p>
+            </div>
+            <!-- item -->
+            <div class="certificate-item">
+              <h2 class="certificate-item__title">Диплом Магистра психотерапии</h2>
+              <div class="certificate-item__inner">
+                <div class="certificate-item__inner_img">
+                  <img src="./img/certificate-2.png" alt="Сертификат" />
+                </div>
+              </div>
+              <p class="certificate-item__side-text">Sigmound Freud Privat Universitat Wiem</p>
+            </div>
+            <!-- item -->
+            <div class="certificate-item">
+              <h2 class="certificate-item__title">Psychotherapeutische propadeutikum</h2>
+              <div class="certificate-item__inner">
+                <div class="certificate-item__inner_img">
+                  <img src="./img/certificate-3.png" alt="Сертификат" />
+                </div>
+              </div>
+              <p class="certificate-item__side-text">Sigmound Freud Privat Universitat Wiem</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="services section" data-scroll="services">
+        <h2 class="title-main services-main">Услуги</h2>
+
+        <div class="services__wrap">
+          <div class="swiper-container services-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide services-slider__slide">
+                <h3 class="services-slider__slide_title">Профессиональная помощь при:</h3>
+                <img data-src="./img/services-1.jpg" class="swiper-lazy" />
+                <div class="swiper-lazy-preloader"></div>
+                <div class="services-slider__slide_info">
+                  <p>Панических атаках</p>
+                  <p>Эмоциональном истощении</p>
+                  <p>Аффективных расстройствах</p>
+                  <p>Депрессии</p>
+                  <p>Сексуальных расстройствах</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide services-slider__slide">
+                <h3 class="services-slider__slide_title">Профессиональная помощь при:</h3>
+                <img data-src="./img/services-2.jpg" class="swiper-lazy" />
+                <div class="swiper-lazy-preloader"></div>
+                <div class="services-slider__slide_info">
+                  <p>Панических атаках</p>
+                  <p>Эмоциональном истощении</p>
+                  <p>Аффективных расстройствах</p>
+                  <p>Депрессии</p>
+                  <p>Сексуальных расстройствах</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide services-slider__slide">
+                <h3 class="services-slider__slide_title">Профессиональная помощь при:</h3>
+                <img data-src="./img/services-3.jpg" class="swiper-lazy" />
+                <div class="swiper-lazy-preloader"></div>
+                <div class="services-slider__slide_info">
+                  <p>Панических атаках</p>
+                  <p>Эмоциональном истощении</p>
+                  <p>Аффективных расстройствах</p>
+                  <p>Депрессии</p>
+                  <p>Сексуальных расстройствах</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Arrows -->
+          <div class="services__arrows">
+            <div class="swiper-button-next main-slider-btn-next services-slider-arr-next"></div>
+            <div class="swiper-button-prev main-slider-btn-prev services-slider-arr-prev"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Articles  -->
+      <section class="articles section" data-scroll="articles">
+        <h2 class="title-main articles-title">Статьи</h2>
+
+        <div class="articles__wrap">
+          <div class="swiper-container articles-slider">
+            <div class="swiper-wrapper">
+              <!-- Item -->
+              <div class="swiper-slide articles-slider__slide">
+                <div class="articles-slide__wrap">
+                  <div class="articles-slide_cart">
+                    <img data-src="./img/article-1.jpg" class="swiper-lazy" />
+                    <div class="swiper-lazy-preloader"></div>
+                    <h3 class="articles-slide__title">Освобождение от ревности</h3>
+                    <p class="articles-slide__text">
+                      В данной публикации я хочу поделиться своими соображениями о направлениях психологической работы с
+                      ревностью.
+                    </p>
+                    <a href="#" class="btn articles-slide__btn">Подробнее</a>
+                  </div>
+                  <div class="article-slide__bg">
+                    <div class="article-slide__bg_img">
+                      <p class="article-slide__bg_text">Лестница психотерапии</p>
+                      <img data-src="./img/article-1.jpg" class="swiper-lazy" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item -->
+              <div class="swiper-slide articles-slider__slide">
+                <div class="articles-slide__wrap">
+                  <div class="articles-slide_cart">
+                    <img data-src="./img/article-2.jpg" class="swiper-lazy" />
+                    <div class="swiper-lazy-preloader"></div>
+                    <h3 class="articles-slide__title">Освобождение от ревности</h3>
+                    <p class="articles-slide__text">
+                      В данной публикации я хочу поделиться своими соображениями о направлениях психологической работы с
+                      ревностью.
+                    </p>
+                    <a href="#" class="btn articles-slide__btn">Подробнее</a>
+                  </div>
+                  <div class="article-slide__bg">
+                    <div class="article-slide__bg_img">
+                      <p class="article-slide__bg_text">Лестница психотерапии</p>
+                      <img data-src="./img/article-2.jpg" class="swiper-lazy" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item -->
+              <div class="swiper-slide articles-slider__slide">
+                <div class="articles-slide__wrap">
+                  <div class="articles-slide_cart">
+                    <img data-src="./img/article-3.jpg" class="swiper-lazy" />
+                    <div class="swiper-lazy-preloader"></div>
+                    <h3 class="articles-slide__title">Освобождение от ревности</h3>
+                    <p class="articles-slide__text">
+                      В данной публикации я хочу поделиться своими соображениями о направлениях психологической работы с
+                      ревностью.
+                    </p>
+                    <a href="#" class="btn articles-slide__btn">Подробнее</a>
+                  </div>
+                  <div class="article-slide__bg">
+                    <div class="article-slide__bg_img">
+                      <p class="article-slide__bg_text">Лестница психотерапии</p>
+                      <img data-src="./img/article-3.jpg" class="swiper-lazy" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="articles__arrows">
+              <div class="swiper-button-next main-slider-btn-next articles-slide-arr-next"></div>
+              <div class="swiper-button-prev main-slider-btn-prev articles-slide-arr-prev"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacts -->
+      <section class="contacts section" data-scroll="contacts">
+        <h2 class="title-main title-contacts">Контакты</h2>
+        <div class="container">
+          <div class="contacts__wrap">
+            <div class="contacts-info">
+              <div class="contacts-item">
+                <h3 class="contacts-item__title contacts-item__title-address">Адрес</h3>
+                <p class="contacts-item__text">
+                  Wien, 1010, Habsburgergasse 10/11, “Gesundheitszentrum <br />
+                  Habsburgergasse
+                </p>
+                <p class="contacts-item__text">«Центр здоровья на Габсбургергассе»</p>
+              </div>
+
+              <div class="contacts-decoration"></div>
+
+              <div class="contacts-item__row">
+                <div class="contacts-item">
+                  <h3 class="contacts-item__title contacts-item__title-phone">Телефон</h3>
+                  <a href="tel:+436504803669" class="contacts-item__text">+436504803669</a>
+                  <p class="contacts-item__text">WhatsApp, Telegram</p>
+                </div>
+
+                <div class="contacts-item">
+                  <h3 class="contacts-item__title contacts-item__title-email">E-mail</h3>
+                  <a href="mailto:titovam150@gmail.com" class="contacts-item__text">titovam150@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contacts-form">
+              <div class="contacts-form__title">Заполните форму</div>
+
+              <!-- Form -->
+              <form action="#" method="post">
+                <input class="input-name" type="text" placeholder="Введите имя" />
+                <input class="input-email" placeholder="E-mail" />
+                <input class="input-tel" type="tel" placeholder="Номер телефона" />
+                <textarea
+                  class="input-text"
+                  name="text"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Введите текст сообщения.."
+                ></textarea>
+                <div class="form-bot">
+                  <button class="btn form-btn" type="submit">Отправить</button>
+
+                  <p class="form-message"></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer section">
+  <div id="map" style="width: 100%; height: 327px"></div>
+
+  <div class="footer-inner">
+    <div class="container">
+      <div class="footer-wrap">
+        <a href="#" class="logo footer__logo">
+          <img src="./img/logo.svg" alt="">
+        </a>
+
+        <nav class="footer__nav">
+          <ul class="footer__ul">
+            <li class="footer__li"><a href="#">Главная</a></li>
+            <li class="footer__li"><a href="#">Услуги</a></li>
+            <li class="footer__li"><a href="#">Обо мне</a></li>
+            <li class="footer__li"><a href="#">Статьи</a></li>
+            <li class="footer__li"><a href="#">Сертификаты</a></li>
+            <li class="footer__li"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__left">
+          <div class="footer-socials">
+            <a href="#" class="footer-soc"><img src="./img/ig.svg" alt="Иконка"></a>
+            <a href="#" class="footer-soc"><img src="./img/skype.svg" alt="Иконка"></a>
+            <a href="#" class="footer-soc"><img src="./img/fb.svg" alt="Иконка"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2021 Все права защищены</p>
+        <p>Дизайн и разработка</p>
+        <a href="#"><img src="./img/l.svg" alt=""></a>
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+    <!-- Scripts -->
+
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=97792e82-4f14-4b6d-9531-812ef4ade517&lang=ru_RU"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js" async></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
